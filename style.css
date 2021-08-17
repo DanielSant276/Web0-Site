@@ -9,7 +9,7 @@ header {
   margin-bottom: 50px;
 }
 
-section, div {
+section, div, a {
   display: flex;
 }
 
@@ -17,6 +17,11 @@ p {
   font-family: Antic Didone;
   font-style: normal;
   font-weight: normal;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /*Configuração do CSS da header*/
@@ -32,15 +37,29 @@ p {
   align-items: center;
 
   padding: 25px;
-  /* width: 783px; */
-  /* height: 265px; */
+  width: 740px;
+  height: 190px;
   left: 200px;
   top: 200px;
 
   background: rgba(64, 1, 1, 0.73);
 }
 
-.header-box p {
+.header-box-home {
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 25px;
+  width: 740px;
+  height: 230px;
+  left: 200px;
+  top: 200px;
+
+  background: rgba(64, 1, 1, 0.73);
+}
+
+.header-box p, .header-box-home p {
   font-size: 80px;
   line-height: 95px;
   text-align: center;
