@@ -1,4 +1,4 @@
-
+/*Seção de quem somos*/
 .about {
   flex-direction: row;
   justify-content: space-between;
@@ -61,66 +61,25 @@
   width: 100px;
 }
 
+.about-bottom-box-text {
+  align-items: center;
+  width: 90%;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.about-bottom-title {
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  
+  color: #3F1818;
+  
+  border: 1px #7A5252;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .about-bottom-text {
   font-size: 35px;
   text-align: center;
-}
-
-.buttons {
-  margin: 0 0 50px 0;
-}
-
-.buttons-image {
-  position: absolute;
-  z-index: 1;
-
-  width: 100%;
-  height: 232px;
-}
-
-.buttons-div {
-  z-index: 2;
-  width: 100%;
-  height: 232px;
-  align-content: center;
-  justify-content: space-evenly;
-  align-items: center; 
-}
-
-.buttons-galery, .buttons-contact, .buttons-about {
-  width: 250px;
-  height: 100px;
-
-  background: linear-gradient(0deg, rgba(71, 20, 20, 0.7), rgba(71, 20, 20, 0.7)), rgba(71, 20, 20, 0.8);
-  border-radius: 20px;
-}
-
-.buttons-div div p {
-  width: 286px;
-  height: 99px;
-
-  font-size: 30px;
-  text-align: center;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  color: #FFFFFF;
-}
-
-.space {
-  margin: 0 7% 100px 7%;
-}
-
-.space-title {
-  font-size: 60px;
-  line-height: 71px;
-  margin-bottom: 50px;
-  text-align: center;
-
-  color: #3F1818;
-
-  border: 1px #7A5252;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

@@ -1,3 +1,4 @@
+/*Configuração padrão de CSS*/
 body {
   display: flex;
   flex-direction: column;
@@ -18,6 +19,7 @@ p {
   font-weight: normal;
 }
 
+/*Configuração do CSS da header*/
 .header-image {
   width: 100%;
   height: 805px;
@@ -33,7 +35,7 @@ p {
   /* width: 783px; */
   /* height: 265px; */
   left: 200px;
-  top: 259px;
+  top: 200px;
 
   background: rgba(64, 1, 1, 0.73);
 }
